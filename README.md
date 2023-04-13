@@ -4,7 +4,7 @@ Minishell is a simple shell program that processes the commands entered by the u
 
 ## Installation
 
-1. Download the latest version of Minishell from [here](https://github.com/user/minishell/releases/latest).
+1. Download the latest version of Minishell from [here](https://github.com/user/minishell).
 2. Extract the downloaded file and run the `make` command in the terminal.
 3. Start Minishell by running the `./minishell` command.
 
