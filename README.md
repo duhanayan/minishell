@@ -1,24 +1,23 @@
 # Minishell
 
-Minishell, basit bir kabuk programıdır. Kullanıcının komut satırına girdiği komutları işleyen ve sonuçlarını gösteren bir programdır.
+Minishell is a simple shell program that processes the commands entered by the user on the command line and displays the results.
 
-## Kurulum
+## Installation
 
-1. Minishell'in son sürümünü [buradan](https://github.com/duhanayan/minishell) indirin.
-2. İndirdiğiniz dosyayı açın ve terminalde `make` komutunu çalıştırın.
-3. `./minishell` komutunu çalıştırarak Minishell'i başlatın.
+1. Download the latest version of Minishell from [here](https://github.com/user/minishell/releases/latest).
+2. Extract the downloaded file and run the `make` command in the terminal.
+3. Start Minishell by running the `./minishell` command.
 
-## Kullanım
+## Usage
 
-Minishell, kullanıcı tarafından girilen komutları işler ve sonuçlarını gösterir. Komut satırına girdiğiniz komutları aşağıdaki şekilde kullanabilirsiniz:
+Minishell processes the commands entered by the user and displays the results. You can use the commands entered on the command line as follows:
 
-$ komut [argümanlar]
+$ command [arguments]
 
-Örnek olarak, `ls` komutu kullanarak mevcut dizindeki dosyaları listelemek için aşağıdaki komutu kullanabilirsiniz:
+For example, you can use the following command to list the files in the current directory using the `ls` command:
 
 $ ls
 
-
-Minishell, birçok farklı komutu destekler. Desteklenen tüm komutları görmek için `help` komutunu kullanabilirsiniz:
+Minishell supports many different commands. You can use the `help` command to see all supported commands:
 
 $ help
