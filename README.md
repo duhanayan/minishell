@@ -18,6 +18,6 @@ For example, you can use the following command to list the files in the current 
 
 $ ls
 
-Minishell supports many different commands. You can use the `help` command to see all supported commands:
+Or you can use following command to change the working directory using the `cd` command
 
-$ help
+$ cd ..
