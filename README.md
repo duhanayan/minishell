@@ -1,42 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Minishell</title>
-</head>
-<body>
-	<h1>Minishell</h1>
-	<p>Minishell, basit bir kabuk programıdır. Kullanıcının komut satırına girdiği komutları işleyen ve sonuçlarını gösteren bir programdır.</p>
-	
-	<h2>Kurulum</h2>
-	<ol>
-		<li>Minishell'in son sürümünü <a href="https://github.com/kullanici/minishell/releases/latest">buradan</a> indirin.</li>
-		<li>İndirdiğiniz dosyayı açın ve terminalde <code>make</code> komutunu çalıştırın.</li>
-		<li><code>./minishell</code> komutunu çalıştırarak Minishell'i başlatın.</li>
-	</ol>
+# Minishell
 
-	<h2>Kullanım</h2>
-	<p>Minishell, kullanıcı tarafından girilen komutları işler ve sonuçlarını gösterir. Komut satırına girdiğiniz komutları aşağıdaki şekilde kullanabilirsiniz:</p>
+Minishell, basit bir kabuk programıdır. Kullanıcının komut satırına girdiği komutları işleyen ve sonuçlarını gösteren bir programdır.
 
-	<pre>$ komut [argümanlar]</pre>
+## Kurulum
 
-	<p>Örnek olarak, <code>ls</code> komutu kullanarak mevcut dizindeki dosyaları listelemek için aşağıdaki komutu kullanabilirsiniz:</p>
+1. Minishell'in son sürümünü [buradan](https://github.com/kullanici/minishell/releases/latest) indirin.
+2. İndirdiğiniz dosyayı açın ve terminalde `make` komutunu çalıştırın.
+3. `./minishell` komutunu çalıştırarak Minishell'i başlatın.
 
-	<pre>$ ls</pre>
+## Kullanım
 
-	<p>Minishell, birçok farklı komutu destekler. Desteklenen tüm komutları görmek için <code>help</code> komutunu kullanabilirsiniz:</p>
+Minishell, kullanıcı tarafından girilen komutları işler ve sonuçlarını gösterir. Komut satırına girdiğiniz komutları aşağıdaki şekilde kullanabilirsiniz:
 
-	<pre>$ help</pre>
+$ komut [argümanlar]
 
-	<h2>Geliştirme</h2>
-	<p>Minishell, C dili ile yazılmıştır. Geliştirme için aşağıdaki adımları izleyebilirsiniz:</p>
-	<ol>
-		<li>Depoyu klonlayın: <code>git clone https://github.com/kullanici/minishell.git</code></li>
-		<li>Kodunuzu değiştirin.</li>
-		<li>Değişikliklerinizi doğrulamak için testlerinizi çalıştırın: <code>make test</code></li>
-		<li>Değişikliklerinizi yükleyin: <code>git push</code></li>
-	</ol>
+Örnek olarak, `ls` komutu kullanarak mevcut dizindeki dosyaları listelemek için aşağıdaki komutu kullanabilirsiniz:
 
-	<h2>Lisans</h2>
-	<p>Bu program, MIT Lisansı ile lisanslanmıştır. Ayrıntılar için <code>LICENSE</code> dosyasını inceleyin.</p>
-</body>
-</html>
+$ ls
+
+
+Minishell, birçok farklı komutu destekler. Desteklenen tüm komutları görmek için `help` komutunu kullanabilirsiniz:
+
+$ help
+
+
+## Geliştirme
+
+Minishell, C dili ile yazılmıştır. Geliştirme için aşağıdaki adımları izleyebilirsiniz:
+
+1. Depoyu klonlayın: `git clone https://github.com/kullanici/minishell.git`
+2. Kodunuzu değiştirin.
+3. Değişikliklerinizi doğrulamak için testlerinizi çalıştırın: `make test`
+4. Değişikliklerinizi yükleyin: `git push`
+
+## Lisans
+
+Bu program, MIT Lisansı ile lisanslanmıştır. Ayrıntılar için `LICENSE` dosyasını inceleyin.
