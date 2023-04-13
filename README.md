@@ -10,7 +10,7 @@ commands and run them using system calls.
 ## Technologies Used
 
 * C programming language
-* UNIX system calls (fork, exec, multi-threads)
+* UNIX system calls (fork, exec)
 * Debugging techniques
 
 ## Installation
